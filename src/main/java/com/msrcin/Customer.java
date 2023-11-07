@@ -8,7 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Objects;
 
 @Entity
-@ComponentScan
 public class Customer {
 
     @Id
