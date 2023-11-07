@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://51.83.131.199:6666/postgres
+    username: marcin
+    password: Tajne666
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 6666
